@@ -29,5 +29,17 @@ end
 # using director_data as input
 def gross_for_director(director_data)
   grand_total = 0
-  
+  while i < nds.length do
+#   i = 0 #which movie director's hash we're on
+# while i < nds.length do
+#   j = 0 # which key in each director's hash
+#   total = 0
+#   while j < nds[i][:movies].length do
+#     total += nds[i][:movies][j][:worldwide_gross].to_i
+#     j += 1 
+#   end
+#   result[nds[i][:name]] = total
+#   i += 1 
+# end 
+# puts result
 end
