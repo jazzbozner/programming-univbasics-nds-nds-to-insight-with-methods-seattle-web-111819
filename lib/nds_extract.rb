@@ -6,7 +6,7 @@ require 'directors_database'
 # { directorOne => allTheMoneyTheyMade, ... }
 
 def directors_totals(nds)
-  # binding.pry
+  binding.pry
   director_index = 0
   totals = {}
 
